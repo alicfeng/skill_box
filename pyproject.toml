@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skill-box"
+version = "0.1.0"
+description = "CLI tool: skill_box command"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "skill_box contributors" }]
+
+[project.scripts]
+skill_box = "skill_box.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

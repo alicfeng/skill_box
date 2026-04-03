@@ -1,8 +1,14 @@
 [
   {
-    "name":"vercel ai",
+    "name":"vercel ai skill",
     "url":"https://github.com/vercel/ai.git",
     "path":"skills",
     "description":"A list of AI autonomous agents"
+  },
+  {
+    "name":"openai curated skills",
+    "url":"https://github.com/openai/skills",
+    "path":"skills/.curated",
+    "description":"openai 精选 skill 集合"
   }
 ]
